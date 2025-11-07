@@ -20,8 +20,11 @@ The core logic is a "3-phase" approach:
         git clone <https://github.com/maulanaraka/computer-vision-parking-detection.git>
         cd <computer-vision-parking-detection> or folder location
     2. Create Virtual environment
+
         python -m venv .venv
+
         source .venv/bin/activate  # On Linux/macOS
+
         .\.venv\Scripts\activate   # On Windows
     3. Install dependencies
         pip install -r requirements.txt
