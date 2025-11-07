@@ -3,6 +3,7 @@
 # Important weights only
 weights/*
 !weights/yolo11m-obb.pt
+!weights/yolo11m.pt
 !weights/parking-obb2/weights/*
 
 # Ignore video files
