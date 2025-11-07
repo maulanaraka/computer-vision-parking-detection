@@ -1,4 +1,4 @@
-.venv/*
+.venv
 
 # Important weights only
 weights/*
@@ -7,6 +7,7 @@ weights/*
 
 # Ignore video files
 *.mp4
+!TULT-4.mp4
 
 # Main notebook only
 *.ipynb
