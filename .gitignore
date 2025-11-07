@@ -1,0 +1,17 @@
+weights/*
+.venv/*
+
+Tult-1.mp4
+Tult-3.mp4
+Tult-4.mp4
+Tult-5.mp4
+Tult-6.mp4
+Tult-7.mp4
+
+ONLINE-1.mp4
+ONLINE-2.mp4
+
+parking-lot-detection.ipynb
+parking-lot-obb-v2.ipynb
+parking-lot-obb.ipynb
+parking-lot-segmentation.ipynb
