@@ -1,5 +1,12 @@
-weights/*
 .venv/*
+weights/obb*
+weights/segmentation*
+weights/detection*
+weights/yolo11m.pt*
+weights/yolo11n.pt*
+weights/yolo11n-obb.pt*
+weights/yolo11s.pt*
+weights/yolo11s-obb.pt*
 
 Tult-1.mp4
 Tult-3.mp4
