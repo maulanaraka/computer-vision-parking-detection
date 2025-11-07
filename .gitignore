@@ -1,24 +1,13 @@
 .venv/*
-weights/obb*
-weights/segmentation*
-weights/detection*
-weights/yolo11m.pt*
-weights/yolo11n.pt*
-weights/yolo11n-obb.pt*
-weights/yolo11s.pt*
-weights/yolo11s-obb.pt*
 
-Tult-1.mp4
-Tult-3.mp4
-Tult-4.mp4
-Tult-5.mp4
-Tult-6.mp4
-Tult-7.mp4
+# Important weights only
+weights/*
+!weights/yolo11m-obb.pt
+!weights/parking-obb2/weights/*
 
-ONLINE-1.mp4
-ONLINE-2.mp4
+# Ignore video files
+*.mp4
 
-parking-lot-detection.ipynb
-parking-lot-obb-v2.ipynb
-parking-lot-obb.ipynb
-parking-lot-segmentation.ipynb
+# Main notebook only
+*.ipynb
+!parking-3-phase.ipynb
