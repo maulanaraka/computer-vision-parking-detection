@@ -20,14 +20,14 @@ The core logic is a "3-phase" approach:
 
 1. Setup
     1. Clone the repository  
-        git clone <https://github.com/maulanaraka/computer-vision-parking-detection.git>  
-        cd <computer-vision-parking-detection> or folder location
+        'git clone <https://github.com/maulanaraka/computer-vision-parking-detection.git>'  
+        'cd <computer-vision-parking-detection>' or folder location
     2. Create Virtual environment  
-        python -m venv .venv  
-        source .venv/bin/activate  # On Linux/macOS  
-        .\.venv\Scripts\activate   # On Windows
+        'python -m venv .venv'  
+        'source .venv/bin/activate'  # On Linux/macOS  
+        ''.\.venv\Scripts\activate'   # On Windows
     3. Install dependencies  
-        pip install -r requirements.txt
+        'pip install -r requirements.txt'
 2. Running the ecode
     Run the first three cells:
     - Config: This loads all libraries and model paths.
