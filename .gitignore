@@ -13,3 +13,5 @@ weights/*
 # Main notebook only
 *.ipynb
 !parking-3-phase.ipynb
+
+.gitignore
