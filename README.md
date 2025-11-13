@@ -2,7 +2,6 @@
 
 This project uses YOLO and OpenCV to detect and monitor parking spot occupancy in real-time from a video feed.
 
-The core logic is a "3-phase" approach:
 1. Config: Load all required models and video sources.
 2. Calibration: Dynamically learn the locations of all parking spots from the video.
 3. Detection: Use the calibrated spots to check for occupancy, demonstrating three different detection methods.
